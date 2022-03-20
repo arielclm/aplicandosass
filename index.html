@@ -4,26 +4,258 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favico32.png">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/5a03eaf8e8.js" crossorigin="anonymous"></script>
+    <!-- Links de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <!-- Links de Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Links de GoogleFonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+ <!-- Links de Title y css -->
+    <title>To Fish Teresa</title>
     <link rel="stylesheet" href="./css/stylo.css">
-    <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>
-            Probando SASS
-        </h1>
+        <!--NAVBAR-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="logo"  href="/index.html">TO FISH TERESA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#hero" class="nav-link active" aria-current="page">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#somos-tft"  class="nav-link" >Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#nuestros-productos" class="nav-link" >Productos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Encontranos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a href="/index.html" class="dropdown-item" href="#">Localización</a></li>
+                      <li><a href="/index.html" class="dropdown-item" href="#">Contacto</a></li>
+                    </div>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main>
-        <h2>allala</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis distinctio praesentium, quisquam labore vitae dolorem maiores ducimus quo nostrum iusto.</p>
-    </main>
-    <footer>
-        <h3>
-            Ariel esdasdsadjfsajkdf
-        </h3>
-        <h2>
-            sdlaksdsklafdlsa
+    <!--Presentación-->
+<main>
+    <section id="hero">
+        <h1 class="wow animate__animated animate__animated animate__backInRight">Los mejores señuelos<br>al alcance de tus manos</h1>
+        <a href="#nuestros-productos">
+        <button class="wow animate__animated animate__rubberBand">COMPRAR </button></a>
+    </section>
+<!--NOSOTROS-->
+    <section id="somos-tft">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2 class="wow animate__animated animate__backInRight
+                ">Somos <span class="color-acento">To  Fish Teresa</span></h2>
+                <p>Desde 2003 brindando  los  mejores  señuelos  importados para las aventuras de pesca deportiva, con gran entusiasmo llegamos a ignaugurar nuestro local físico en la provincia de Buenos Aires en  2010. Superandonos  y  dando lo mejor para  la  experiencia  y confort   de  nuestros queridos  clientes.</p>
+            </div>
+        </div>
+    </section>
+<!--PRODUCTOS-->
+    <section id="nuestros-productos">
+        <div class="container">
+            <h2 class="wow animate__animated animate__animated animate__backInRight">Nuestros Productos</h2>
+            <div class="productos">
+                <div class="carta">
+                    <h3>Blue  Sky</h3>
+                    <p>Sofisticado señuelo importado  de Estados Unidos. Son especiales para la pesca de cefalópodos.</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="carta">
+                    <h3>Withe Cloud</h3>
+                    <p>Dinámico  señuelo importado de China. Son muy utilizados para la pesca de cefalópodos.s</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="carta">
+                    <h3> Platinum Stone</h3>
+                    <p>Agresivo  señuelo importado de  Nueva Zelanda.Este tipo de señuelos cucharillas son muy usados en la pesca de agua dulce a spinning, sobre todo para pesca de la trucha. </p>
+                    <button>Comprar</button>
+                </div>  
+                <div class="carta">
+                    <h3>Black Ocean</h3>
+                    <p>Impactante señuelo traido de  Africa.  Son muy efectivos si queremos practicar la pesca al trolling.</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="carta">
+                    <h3>Pink  Floyd</h3>
+                    <p>Masizo señuelo importado  desde Inglaterra.Los jigs suelen ser señuelos duros metálicos.</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="carta">
+                    <h3> Green Island</h3>
+                    <p>Ligero señuelo  importado de Australia. Se usan principalmente para spinning.</p>
+                    <button>Comprar</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+<!--ENVIOS-->
+    <section id="final">
+        <h2 class="wow animate__animated animate__animated animate__backInRight">Consultar por  envio gratis
         </h2>
+        <button class="wow animate__animated animate__rubberBand">CLICK ACÁ!</button>
+    </section>
+</main>
+<!--FOOTER-->
+    <footer>
+        <div class="my-1">
+            <!-- Footer -->
+            <footer
+                    class="text-center text-lg-start text-white"
+                    style="background-color: slateblue"
+                    >
+              <!-- Grid container -->
+              <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                  <!--Grid row-->
+                  <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">
+                        To Fish Teresa
+                      </h6>
+                      <p>
+                        Utiliza los canales de contacto y redes sociales para podero btener más información  acerca de los productos, compra, local físico  y demás.
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <hr class="w-100 clearfix d-md-none" />
+          
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">Productos</h6>
+                      <p>
+                        <a href="#nuestros-productos"class="text-white">Blue sky</a>
+                      </p>
+                      <p>
+                        <a href="#nuestros-productos" class="text-white">Withe Cloud</a>
+                      </p>
+                      <p>
+                        <a href="#nuestros-productos" class="text-white">Platinium Stone</a>
+                      </p>
+                      <p>
+                        <a href="#nuestros-productos" class="text-white">Pink Floyd / Green Island</a>
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+          
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+                      <p><i class="fas fa-home mr-3"></i> Av. 9 de Julio s/n, C1043 CABA</p>
+                      <p><i class="fas fa-envelope mr-3"></i> tft@gmail.com</p>
+                      <p><i class="fas fa-phone mr-3"></i> + 54 11336541252</p>
+                      <p><i class="fas fa-print mr-3"></i> + 54 11336541252</p>
+                    </div>
+                    <!-- Grid column -->
+                  </div>
+                  <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+          
+                <hr class="my-3">
+          
+                <!-- Section: Copyright -->
+                <section class="p-3 pt-0">
+                  <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                      <!-- Copyright -->
+                      <div class="p-3">
+                        © 2020 Copyright: To Fish teresa
+                        <a class="text-white" href="/index.html">www.ToFishTeresa.com</a>
+                      </div>
+                      <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+          
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                      <!-- Facebook -->
+                      <a
+                         class="btn btn-outline-light btn-floating m-1"
+                         class="text-white"
+                         role="button"
+                         ><i class="fab fa-facebook-f"></i
+                        ></a>
+          
+                      <!-- Twitter -->
+                      <a
+                         class="btn btn-outline-light btn-floating m-1"
+                         class="text-white"
+                         role="button"
+                         ><i class="fab fa-twitter"></i
+                        ></a>
+          
+                      <!-- Google -->
+                      <a
+                         class="btn btn-outline-light btn-floating m-1"
+                         class="text-white"
+                         role="button"
+                         ><i class="fab fa-google"></i
+                        ></a>
+          
+                      <!-- Instagram -->
+                      <a
+                         class="btn btn-outline-light btn-floating m-1"
+                         class="text-white"
+                         role="button"
+                         ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
+                    <!-- Grid column -->
+                  </div>
+                </section>
+                <!-- Section: Copyright -->
+              </div>
     </footer>
+<!--Script  Bootstrap-->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"
+></script>
+<script>
+var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+<!--Script wow-->
+    <script src="/js/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
 </body>
 </html>

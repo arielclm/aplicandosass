@@ -1,0 +1,71 @@
+/*PRESENTACIÓN*/
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#hero h1 {
+  color: $fondoblanco;
+}
+
+#hero button {
+  font-size: 1.75em;
+}
+
+#somos-tft .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+@media (min-width: 850px) {
+  /*PRESENTACIÓN*/
+  #hero h1 {
+    font-size: 5em;
+  }
+
+  #somos-tft .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #somos-tft .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #somos-tft h2 {
+    margin-top: 0px;
+  }
+
+  #somos-tft .img-container {
+    background-image: url("/images/fisherkid.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+    border-radius: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  #localizacion {
+    background-position-x: calc(100vw - 800px);
+  }
+}
+/*FINAL VISTA DESKTOP*/

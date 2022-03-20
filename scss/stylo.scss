@@ -1,28 +1,10 @@
-$bgcolor: red;
-$fucsia: purple;
-$bgcolor2: blueviolet;
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: $bgcolor2;
-}
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: blueviolet;
-  align-items: center;
-}
-p {
-  font-size: 16px;
-  color: $bgcolor;
-  text-align: center;
-}
-footer {
-  margin: 5px;
-  h3 {
-    color: $fucsia;
-  }
-}
+@import url(/partials/_header.scss);
+@import url(/partials/_primero.scss);
+@import url(/partials/_presentacion3.scss);
+@import url(/partials/_productos.scss);
+@import url(/partials/_final.scss);

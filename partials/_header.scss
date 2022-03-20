@@ -1,0 +1,59 @@
+/*HEADER NAV  BAR MOBILE*/
+header {
+  background-color: $fondoblanco;
+  header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: slateblue;
+    font-size: 1.6em;
+  }
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 auto;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  header a:hover {
+    color: rgb(64, 52, 136);
+  }
+}
+@media (min-width: 850px) {
+  header {
+    position: fixed;
+    width: 100%;
+    header .container {
+      flex-direction: row;
+      justify-content: center;
+    }
+    header .logo {
+      justify-content: flex-start;
+    }
+    header nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+    }
+  }
+  /*INICIO HEADER NAVBAR DESKTOP*/
+  section button .btn {
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  #localizacion {
+    background-position-x: calc(100vw - 800px);
+  }
+}
