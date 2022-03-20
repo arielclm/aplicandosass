@@ -1,9 +1,10 @@
-@import url(/partials/_header.scss);
-@import url(/partials/_primero.scss);
-@import url(/partials/_presentacion3.scss);
-@import url(/partials/_productos.scss);
-@import url(/partials/_final.scss);
+@import url(./partials/_header.scss);
+@import url(./partials/_primero.scss);
+@import url(./partials/_presentacion3.scss);
+@import url(./partials/_productos.scss);
+@import url(./partials/_final.scss);
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
