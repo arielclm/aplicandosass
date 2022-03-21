@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-@import "./partials/_header";
+@import "./partials/_variable.scss";
+@import "./partials/_header.scss";
 @import "./partials/_primero.scss";
 @import "./partials/_presentacion3.scss";
 @import "./partials/_productos.scss";
 @import "./partials/_final.scss";
-@import "./partials/_variable";
