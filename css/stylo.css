@@ -12,7 +12,7 @@ header a .logo {
   margin: 0;
   padding: 25px 30px;
   font-weight: bold;
-  color: slateblue;
+  color: rgba(105, 90, 205, 0.981);
   font-size: 1.6em; }
 
 header .container {
@@ -31,7 +31,7 @@ header a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
-  color: slateblue; }
+  color: rgba(105, 90, 205, 0.981); }
 
 header a:hover {
   color: #403488; }
@@ -62,6 +62,33 @@ section button .btn {
 @media (min-width: 1200px) {
   #localizacion {
     background-position-x: calc(100vw - 800px); } }
+
+.contactform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 120vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.containerform {
+  width: 40%;
+  margin-top: 110px;
+  margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.857);
+  border-radius: 5px; }
+
+.form-control, .btn {
+  background-color: rgba(105, 90, 205, 0.981); }
+
+.form-label {
+  color: black;
+  text-align: center;
+  font-size: 1rem; }
 
 html {
   scroll-behavior: smooth; }
@@ -111,7 +138,7 @@ button {
   text-align: center;
   flex-direction: column;
   height: 90vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -144,7 +171,7 @@ button {
   #somos-tft h2 {
     margin-top: 0px; }
   #somos-tft .img-container {
-    background-image: url("/images/fisherkid.jpg");
+    background-image: url("/images/fisherkid2.jpg");
     background-size: cover;
     background-position: center center;
     height: 500px;

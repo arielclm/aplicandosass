@@ -6,7 +6,7 @@ header a .logo {
   margin: 0;
   padding: 25px 30px;
   font-weight: bold;
-  color: slateblue;
+  color: $bgcolor2;
   font-size: 1.6em;
 }
 header .container {
@@ -25,7 +25,7 @@ header a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
-  color: slateblue;
+  color: $bgcolor2;
 }
 header a:hover {
   color: rgb(64, 52, 136);
