@@ -70,7 +70,7 @@ section button .btn {
   text-align: center;
   flex-direction: column;
   height: 120vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background2.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -138,7 +138,7 @@ button {
   text-align: center;
   flex-direction: column;
   height: 90vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background2.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -171,7 +171,7 @@ button {
   #somos-tft h2 {
     margin-top: 0px; }
   #somos-tft .img-container {
-    background-image: url("/images/fisherkid2.jpg");
+    background-image: url("../images/fisherkid2.jpg");
     background-size: cover;
     background-position: center center;
     height: 500px;

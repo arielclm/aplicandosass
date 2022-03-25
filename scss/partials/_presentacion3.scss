@@ -11,7 +11,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/background2.jpg");
+    url("../images/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -55,7 +55,7 @@
   }
 
   #somos-tft .img-container {
-    background-image: url("/images/fisherkid2.jpg");
+    background-image: url("../images/fisherkid2.jpg");
     background-size: cover;
     background-position: center center;
     height: 500px;
