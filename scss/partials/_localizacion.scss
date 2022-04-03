@@ -1,0 +1,41 @@
+/*LOCALIZACIÓN*/
+.container-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 120vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.container-map .map {
+  margin-top: 100px;
+}
+.container-map h1 {
+  color: white;
+}
+.map-p {
+  color: white;
+  margin-bottom: 100px;
+}
+iframe {
+  width: 40%;
+  margin-top: 110px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+/*FINAL VISTA MOBIL*/
+@media (min-width: 850px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+}

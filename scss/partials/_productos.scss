@@ -20,6 +20,7 @@
   padding: 100px 0px;
   margin: 30px;
   border-radius: 15px;
+  transition: 2s;
 }
 
 .carta:first-child {
@@ -28,7 +29,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/azul.jpg");
+    url("../images/azul.jpg");
 }
 
 .carta:nth-child(2) {
@@ -37,7 +38,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/blanco.jpg");
+    url("../images/blanco.jpg");
 }
 
 .carta:nth-child(3) {
@@ -46,7 +47,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/plateado.jpg");
+    url("../images/plateado.jpg");
 }
 .carta:nth-child(4) {
   background-image: linear-gradient(
@@ -54,7 +55,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/negro.jpg");
+    url("../images/negro.jpg");
 }
 
 .carta:nth-child(5) {
@@ -63,7 +64,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/rosa.jpg");
+    url("../images/rosa.jpg");
 }
 
 .carta:nth-child(6) {
@@ -72,10 +73,11 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/verde.jpg");
+    url("../images/verde.jpg");
 }
 .carta:hover {
   transform: scale(1.1, 1.1);
+  transition: 2s;
 }
 @media (min-width: 850px) {
   /*PRODUCTOS*/
@@ -108,6 +110,9 @@
     background-position-y: 0;
     background-color: rgba(50, 50, 50, 1);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transition: 2s;
+    width: 500px;
+    height: 350px;
   }
 
   .carta:first-child {
@@ -116,7 +121,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("/images/azul.jpg");
+      url("../images/azul.jpg");
   }
 
   .carta:nth-child(2) {
@@ -125,7 +130,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("/images/blanco.jpg");
+      url("../images/blanco.jpg");
   }
 
   .carta:nth-child(3) {
@@ -134,7 +139,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("/images/plateado.jpg");
+      url("../images/plateado.jpg");
   }
   .carta:nth-child(4) {
     background-image: linear-gradient(
@@ -142,7 +147,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("/images/negro.jpg");
+      url("../images/negro.jpg");
   }
 
   .carta:nth-child(5) {
@@ -151,7 +156,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("/images/rosa.jpg");
+      url("../images/rosa.jpg");
   }
 
   .carta:nth-child(6) {
@@ -160,10 +165,11 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("/images/verde.jpg");
+      url("../images/verde.jpg");
   }
   .carta:hover {
     transform: scale(1.1, 1.1);
+    transition: 2s;
   }
 }
 @media (min-width: 1200px) {
