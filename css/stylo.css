@@ -104,19 +104,16 @@ section button .btn {
   background-position: center center; }
 
 .container-map .map {
-  margin-top: 100px; }
+  margin-top: 150px; }
 
 .container-map h1 {
   color: white; }
 
 .map-p {
-  color: white;
-  margin-bottom: 100px; }
+  color: white; }
 
 iframe {
-  width: 40%;
-  margin-top: 110px;
-  margin-bottom: 50px;
+  width: 70%;
   border-radius: 5px; }
 
 /*FINAL VISTA MOBIL*/
